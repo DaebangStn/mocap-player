@@ -95,7 +95,7 @@ class Joint:
         if self._parent is None:
             base_mtx = self._offset_frame.tr_mtx()
         else:
-            base_mtx = self._parent.trMtx @ self._offset_frame.tr_mtx()  # TODO: check if this is correct
+            base_mtx = self._parent.trMtx @ self._offset_frame.tr_mtx()
         for i, channel in enumerate(self._channels):
             if channel == Channel.Xr:
                 base_mtx = base_mtx @ rotationX_mtx(coordinates[i])
