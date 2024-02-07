@@ -3,6 +3,10 @@
 This is a simple motion capture player that reads BVH files and plays them back.
 It is written in WebVPython(Python3.7) which translates python code the javascript and runs in the browser.
 
+![demo](./img/demo.gif)
+
+**(Right) Reference BVH viewer (Left) My Implementation**
+
 #### References
 
 1. For BVH file format: https://staffwww.dcs.shef.ac.uk/people/S.Maddock/phd_theses/meredith/MeredithMaddock2001_CS0111.pdf
