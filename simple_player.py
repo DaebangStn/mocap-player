@@ -3,7 +3,7 @@ from vpython import rate
 from ctrl.player import Player
 
 
-bvh_path = "C:/Users/geon/PycharmProjects/mocap-player/res/a_001_1_1.bvh"
+bvh_path = "res/walk.bvh"
 
 
 def main():
